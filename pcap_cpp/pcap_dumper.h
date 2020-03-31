@@ -32,7 +32,7 @@ public:
 		}
 		else
 		{
-			format_error(pcap_geterr(handle.get()));
+			format_error("No memory");
 			return false;
 		}
 
